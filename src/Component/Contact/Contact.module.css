@@ -1,0 +1,49 @@
+.heading{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.container{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: coral; */
+    height: calc(100vh - 8rem);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+    width: 20vw;
+    height: 65vh;
+    font-size: 2rem;
+    /* background-color: chocolate; */
+}
+.form input{
+    width: 25rem;
+    height: 2.5rem;
+    margin: 1rem 0;
+}
+/* .text{
+    width: 25rem;
+    height: 2.5rem;
+}
+.number{
+    width: 25rem;
+    height: 2.5rem;
+}
+.email{
+    width: 25rem;
+    height: 2.5rem;
+}*/
+.message{
+    width: 25rem;
+    height: 10rem;
+    resize: none;
+    overflow: auto;
+} 
+.button{
+    margin: 1rem;
+}

@@ -1,0 +1,14 @@
+.card_container{
+    /* background-color: rgba(149, 200, 183, 0.472); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    /* width: 100%; */
+    /* background-color: aquamarine; */
+    font-size: 3rem;
+    margin: 2rem auto;
+    text-align: center;
+}
